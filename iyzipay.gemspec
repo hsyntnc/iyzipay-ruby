@@ -16,9 +16,10 @@ Gem::Specification.new do |s|
   s.license               = 'MIT'
 
   s.add_runtime_dependency 'rest-client', '~> 2.0'
-  s.add_runtime_dependency 'rack', '~> 1.6.4'
-  s.add_development_dependency 'rspec', '~>3.5.0'
-  s.add_development_dependency 'rspec-rails', '~>3.5.0'
-  s.add_development_dependency 'nokogiri', '~>1.8.2'
+  s.add_runtime_dependency 'rack', '>= 2.2.4'
+  s.add_development_dependency 'rspec', '~> 3.8.0'
+  s.add_development_dependency 'rspec-rails', '~> 3.8.0'
+  s.add_development_dependency 'nokogiri', '~>1.11'
+  s.add_development_dependency 'byebug', '~> 11.0'
   s.require_paths = ['lib']
 end
